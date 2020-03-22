@@ -4,9 +4,12 @@ Is a basic spring boot application. It follows a layered architecture. built usi
 
 * Spring-boot
 * Java 8
+* H2
 * Maven
 
 ## Assumptions:
+
+The app follows a traditional style of tombola, where you purchase tickets and then a ticket is drawn by someone. 
 
 Date and time are not relevant and not required. Also the player information is not stored.
 
@@ -15,6 +18,8 @@ Thread safety is also not required for now. Thus using a basic H2 database
 History is also not required.
 
 Full documentation or any standard of coding style is totally dependant on the developer.
+
+The react UI is not fully comprehensive, and lacks some functionality to make it a complete app.
 
 ## Running the application
 
@@ -27,3 +32,9 @@ The application should be available on localhost port 8080
 the swagger for the applciation is also available on :
 
 http://localhost:8080/fleetcar/swagger-ui.html
+
+
+## React front end 
+
+There is a small front end for this, all though not comprehensive, it can be used in conjuction with this.
+If the react app is started it will work with this as long as the the port for the app is 8080.
