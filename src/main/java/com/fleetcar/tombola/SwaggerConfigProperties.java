@@ -5,6 +5,15 @@ import org.springframework.context.annotation.Configuration;
 
 import lombok.Data;
 
+/**
+ * 
+ * Basic swagger properties used to set up swagger with spring boot. The properties are set in
+ * the application.properties file and injected into this configuration class.
+ * 
+ * @author AI
+ *
+ */
+
 @Data
 @Configuration("swaggerConfigProperties")
 public class SwaggerConfigProperties {

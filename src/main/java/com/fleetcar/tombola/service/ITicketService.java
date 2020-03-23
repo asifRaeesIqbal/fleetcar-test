@@ -4,6 +4,13 @@ import java.util.List;
 
 import com.fleetcar.tombola.model.Ticket;
 
+/**
+ * Ticket service API that allows a client to make ticket specific requests.
+ * 
+ * @author AI
+ *
+ */
+
 public interface ITicketService {
 
 	/**
