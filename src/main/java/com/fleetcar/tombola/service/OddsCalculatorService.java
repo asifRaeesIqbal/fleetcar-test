@@ -11,6 +11,14 @@ import org.springframework.stereotype.Service;
 import com.fleetcar.tombola.model.Ticket;
 import com.fleetcar.tombola.repository.TicketRepository;
 
+/**
+ * The class calculates the odds a user has of winning. This depends on the tickets the user has bought 
+ * as well as the number of tickets left to be picked.
+ *  
+ * @author AI
+ *
+ */
+
 @Service
 public class OddsCalculatorService implements OddsCalculator {
 

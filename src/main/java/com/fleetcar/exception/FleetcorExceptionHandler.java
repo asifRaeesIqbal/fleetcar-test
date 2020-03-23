@@ -23,4 +23,10 @@ public class FleetcorExceptionHandler {
 		return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 	
+	@ExceptionHandler(UnprocessedEntityException.class)
+	public ResponseEntity<?> UnprocessedEntityException(ResourceNotFoundException ex, WebRequest request) {
+		ErrorInformation errorDetails = new ErrorInformation(new Date(), ex.getMessage(), request.getDescription(false));
+		return new ResponseEntity<>(errorDetails, HttpStatus.UNPROCESSABLE_ENTITY);
+	}
+	
 }

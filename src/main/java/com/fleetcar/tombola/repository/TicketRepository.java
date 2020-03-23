@@ -9,6 +9,14 @@ import org.springframework.data.repository.query.Param;
 
 import com.fleetcar.tombola.model.Ticket;
 
+/**
+ * A repository class that uses JPA/Hibernate to access the uderlying data store.
+ * In this case this class provides access to the Ticket database table.
+ *  
+ * @author AI
+ *
+ */
+
 public interface TicketRepository extends JpaRepository<Ticket, Integer> {
 	
 	@Query("SELECT t FROM Ticket t WHERE t.bought = FALSE AND t.picked= FALSE")

@@ -13,6 +13,14 @@ import com.fleetcar.tombola.repository.ConfigurationRespository;
 
 import io.swagger.annotations.Api;
 
+/**
+ * The configuration controller, this controller is used to populate and retrieve configuration data
+ * from the database.
+ *  
+ * @author AI
+ *
+ */
+
 @CrossOrigin(origins = { "http://localhost:3000" })
 @RestController
 @Api(tags = "Configuration API")

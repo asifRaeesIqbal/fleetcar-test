@@ -3,6 +3,14 @@ package com.fleetcar.tombola.model;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * This is a summary for a particular user of the tickets they currently have a chance of winning from and
+ * the current odds.
+ *  
+ * @author AI
+ *
+ */
+
 public class UserSummary {
 
 	private BigDecimal chancesOfWinning;

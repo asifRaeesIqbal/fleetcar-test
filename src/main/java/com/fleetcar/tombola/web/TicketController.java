@@ -23,6 +23,13 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
+/**
+ * This is controller entry for buying tickets, as well as picking tickets and obtaining ticket information.
+ * 
+ * @author AI
+ *
+ */
+
 @CrossOrigin(origins = { "http://localhost:3000" })
 @RestController
 @Api(tags = "Ticket API")

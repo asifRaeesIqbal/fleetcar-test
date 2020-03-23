@@ -12,6 +12,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * A Ticket class that is used to store ticket data. 
+ *  
+ * @author AI
+ *
+ */
+
 @Table(name = "ticket")
 @Entity
 @Data

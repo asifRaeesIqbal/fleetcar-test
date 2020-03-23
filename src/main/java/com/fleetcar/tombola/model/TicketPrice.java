@@ -4,6 +4,13 @@ import java.math.BigDecimal;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * A singleton that stores the ticket price. This is incremented at every 100 tickets that are sold.
+ * 
+ * @author AI
+ *
+ */
+
 @Component
 public class TicketPrice {
 	
