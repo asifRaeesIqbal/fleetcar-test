@@ -29,7 +29,7 @@ java -jar fleetcarXXX.jar
 
 The application should be available on localhost port 8080
 
-the swagger for the applciation is also available on :
+the swagger for the application is also available on :
 
 http://localhost:8080/fleetcar/swagger-ui.html
 
